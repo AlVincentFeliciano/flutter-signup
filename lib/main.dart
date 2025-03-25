@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'homepage_AVLF.dart';
 import 'page1_AVLF.dart';
 import 'page2_AVLF.dart';
-import 'signup_AVLF.dart'; // Assuming SignUpPage is in signup_AVLF.dart
+import 'signup_AVLF.dart';
 
 void main() {
   runApp(MyApp());
@@ -93,7 +93,7 @@ class _LoginPageState extends State<LoginPage> {
                     onPressed: _handleLogin,
                     child: Text('Login'),
                   ),
-                  SizedBox(height: 10), // Add some space between the buttons
+                  SizedBox(height: 10),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(
